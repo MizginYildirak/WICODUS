@@ -1,0 +1,121 @@
+.brand img {
+  max-width: 160px;
+}
+
+.dark {
+  background-color: #151515;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.btn-sm {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  padding: 0.5rem 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+.aliceblue {
+  color: aliceblue;
+}
+
+.search {
+  max-width: 100%;
+}
+
+.border-nav {
+  border-bottom: 1px solid gray;
+}
+
+li {
+  list-style-type: none;
+}
+
+.w-max-content {
+  width: max-content;
+}
+
+.position-absolute-x-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0;
+}
+
+.owl-item {
+  width: 270px !important;
+
+}
+
+.px-6 {
+  padding-right: 4rem;
+}
+
+.btn-round {
+  border-radius: 10rem;
+}
+
+
+/* .owl-carousel .card-content {
+  max-width: 290px;
+} */
+
+.products {
+  background-image: url(assets/img/bg/bg_shape.png);
+  background-color: blueviolet;
+  padding: 6rem 0;
+}
+
+.card {
+  position: relative;
+}
+
+.card .card-details {
+  position: absolute;
+  bottom: 0;
+  z-index: 9998;
+  padding: 1rem;
+  background-color: #eeb509;
+  width: 100%;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.card-content:hover .card-details {
+  opacity: 1;
+}
+
+.py-8 {
+  padding: 3rem 0;
+}
+
+.ls-4 {
+  letter-spacing: 4px;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+.btn-danger {
+  background-color: #da2f69;
+    border-color: #da2f69;
+}
+
+.bg-dark-o {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .brand img {
+    max-width: 100px;
+  }
+}
