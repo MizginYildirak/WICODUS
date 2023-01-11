@@ -7,7 +7,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 .btn-sm {
@@ -50,17 +50,15 @@ li {
 
 .owl-item {
   width: 270px !important;
-
 }
 
 .px-6 {
-  padding-right: 4rem;
+  padding: 0 4rem;
 }
 
 .btn-round {
   border-radius: 10rem;
 }
-
 
 /* .owl-carousel .card-content {
   max-width: 290px;
@@ -97,6 +95,10 @@ li {
   padding: 3rem 0;
 }
 
+.lh-p {
+  line-height: 32px;
+}
+
 .ls-4 {
   letter-spacing: 4px;
 }
@@ -105,13 +107,48 @@ li {
   letter-spacing: 2px;
 }
 
-.btn-danger {
-  background-color: #da2f69;
-    border-color: #da2f69;
+.bg-danger {
+  background-color: #da2f69 !important;
+  border-color: #da2f69 !important;
+  font-size: 12px;
 }
 
 .bg-dark-o {
   background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.w-40 {
+  max-width: 200px;
+}
+
+.pb-6 {
+  padding-bottom: 4rem !important;
+}
+
+.py-7 {
+  padding: 7rem 0;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+.small {
+  font-size: 12px !important;
+}
+
+.more-btn {
+  font-size: 11px;
+padding: 10px 25px;
+font-weight: 500;
+}
+
+.footer {
+  padding: 5rem 0;
+}
+
+.bg-dark {
+  background-color: #151515 !important;
 }
 
 @media only screen and (max-width: 992px) {
