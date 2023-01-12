@@ -48,74 +48,70 @@
   <body>
     <!-- navbar start -->
 
-    <nav class="dark py-3 border-nav">
-      <div
-        class="row container d-flex justify-content-between align-content-center m-auto w-100"
-      >
-        <div class="col-2">
-          <div class="navbar-brand brand">
-            <img class="" src="./images/logo-gaming.png" alt="" />
+    <nav class="dark border-nav d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="navbar-brand brand">
+              <img class="" src="./images/logo-gaming.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="col-6 d-flex d-none d-lg-block">
-          <div class="d-flex m-auto">
-            <form class="input-group border-0 bg-transparent">
+          <div class="col-4 d-flex d-none d-lg-block m-auto">
+            <form class="d-flex border-0 bg-transparent w-100">
               <input
                 class="form-control"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
-              <div class="input-group-append">
-                <button
-                  class="btn btn-sm btn-warning text-secondary my-0 mx-0 d-none d-lg-block"
-                  type="submit"
-                >
-                  <i class="fas fa-search my-2 mx-2"></i>
-                </button>
-              </div>
+              <button
+                class="btn btn-sm btn-warning text-secondary my-0 mx-0 d-none d-lg-block px-2"
+                type="submit"
+              >
+                <i class="fas fa-search my-2 mx-2"></i>
+              </button>
             </form>
           </div>
-        </div>
-        <div
-          class="col-8 col-lg-4 d-flex justify-content-center justify-content-end align-content-end align-content-sm-end m-auto p-0"
-        >
-          <ul
-            class="d-flex justify-content-center align-content-center m-auto p-0"
-          >
-            <div
-              class="d-flex m-auto justify-content-center align-content-center"
+          <div class="col-4 d-flex m-auto p-0">
+            <ul
+              class="d-flex justify-content-center align-content-center m-auto p-0"
             >
-              <a href=""
-                ><button class="text-dark btn-sm bg-warning">SIGN IN</button></a
+              <div
+                class="d-flex m-auto justify-content-center align-content-center"
               >
-              <a class="d-none d-sm-block" href=""
-                ><button class="text-light btn-sm dark border-0">
-                  SIGN UP
-                </button></a
-              >
-            </div>
-            <div class="d-flex m-auto justify-content-center">
-              <ul class="d-flex gap-4 col-8 col p-0">
-                <li class="d-inline-flex gap-2 m-auto dropdown">
-                  <a class="d-none d-sm-block" href=""
-                    ><i class="fa-solid fa-globe text-muted"></i
-                  ></a>
-                  <a class="d-none d-sm-block" href=""
-                    ><span class="text-muted text-decoration-none">EN</span>
-                  </a>
-                  <a class="d-none d-sm-block" href=""
-                    ><i class="fa-solid fa-caret-down text-muted"></i
-                  ></a>
-                </li>
-                <li class="d-none d-sm-block">
-                  <a href=""
-                    ><i class="fa-solid fa-cart-shopping text-muted"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </ul>
+                <a href=""
+                  ><button class="text-dark btn-sm bg-warning text-nowrap">
+                    SIGN IN
+                  </button></a
+                >
+                <a class="d-none d-sm-block" href=""
+                  ><button class="text-light btn-sm dark border-0 text-nowrap">
+                    SIGN UP
+                  </button></a
+                >
+              </div>
+              <div class="d-flex m-auto justify-content-center">
+                <ul class="d-flex gap-4 col-8 col p-0">
+                  <li class="d-inline-flex gap-2 m-auto dropdown">
+                    <a class="d-none d-sm-block" href=""
+                      ><i class="fa-solid fa-globe text-muted"></i
+                    ></a>
+                    <a class="d-none d-sm-block" href=""
+                      ><span class="text-muted text-decoration-none">EN</span>
+                    </a>
+                    <a class="d-none d-sm-block" href=""
+                      ><i class="fa-solid fa-caret-down text-muted"></i
+                    ></a>
+                  </li>
+                  <li class="d-none d-sm-block">
+                    <a href=""
+                      ><i class="fa-solid fa-cart-shopping text-muted"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -408,10 +404,9 @@
         </div>
       </section>
 
-      <section>
-        <div class="row">
+      <section class="row w-100 m-0">
           <div
-            class="col-6 d-flex justify-content-end align-items-center text-end"
+            class="col-12 col-lg-6 d-flex justify-content-end align-items-center text-end"
             style="
               background-image: url(./images/cg-fl_01.jpg);
               background-size: cover;
@@ -437,17 +432,18 @@
           </div>
 
           <div
-            class="col-6 d-flex align-items-center"
+            class="col-12 col-lg-6 d-flex align-items-center py-5 py-md-0"
             style="
               background-image: url(./images/cg-fl_03.jpg);
               background-size: cover;
               min-height: 450px;
             "
           >
-            <div class="row px-6">
+            <div class="d-flex flex-column flex-md-row px-0 px-sm-6">
               <div
-                class="col-4 p-0 position-relative aliceblue fw-bold btn-"
-                style="
+                class="col-4 p-0 my-2 my-md-0 position-relative aliceblue fw-bold w-100"
+                style="  aspect-ratio: 8/11;
+                 max-width: 14rem;
                   background-image: url(./images/cg_07.jpg);
                   background-size: cover;
                 "
@@ -463,9 +459,9 @@
                   This offer has expired!</span
                 >
               </div>
-              <div class="col-8 aliceblue px-4 fw-light">
+              <div class="col-8 aliceblue fw-light w-100 flex-shrink-1 px-0 px-md-4">
                 <h1 class="ls-2">Informant</h1>
-                <p>
+                <p class="w-100">
                   Mauris euismod aliquam erat, a vestibulum tortor bibendum sit
                   amet. Duis vitae augue non dolor fermentum faucibus non quis
                   justo. Sed consequat accumsan turpis et semper. Nulla blandit
@@ -482,16 +478,68 @@
             </div>
           </div>
 
+
           <div
-            class="col-6 d-flex justify-content-end align-items-center text-end"
+            class="col-12 col-lg-6 d-flex align-items-center py-5 py-md-0"
             style="
               background-image: url(./images/cg-fl_04.jpg);
               background-size: cover;
               min-height: 450px;
             "
           >
-            <div class="row px-6">
-              <div class="col-8 aliceblue px-4 fw-light">
+            <div class="d-flex flex-column flex-md-row px-0 px-sm-6">
+                <div class="col-8 aliceblue fw-light w-100 flex-shrink-1 px-0 px-md-4 text-end">
+                    <h1 class="ls-2">Haku Recalibration</h1>
+                    <p class="w-100">
+                      Mauris euismod aliquam erat, a vestibulum tortor bibendum sit
+                      amet. Duis vitae augue non dolor fermentum faucibus non quis
+                      justo. Sed consequat accumsan turpis et semper. Nulla blandit
+                      blandit est, nec tincidunt neque sollicitudin vitae.
+                    </p>
+                    <a
+                      class="btn aliceblue bg-danger py-3 px-4 ls-4 btn-round"
+                      href=""
+                      ><i class="fa-solid fa-cart-shopping d-flex gap-3 aliceblue"
+                        >BUY</i
+                      ></a
+                    >
+                  </div>
+              <div
+                class="col-4 p-0 my-2 my-md-0 position-relative aliceblue fw-bold w-100"
+                style="  aspect-ratio: 8/11;
+                 max-width: 14rem;
+                  background-image: url(./images/cg_08.jpg);
+                  background-size: cover;
+                "
+              >
+                <span
+                  class="bg-danger position-absolute py-2 px-3 fs-6"
+                  style="right: 0"
+                  >-50%</span
+                ><span
+                  class="d-flex bg-dark-o py-2 px-3 text-center text-light fw-bold fs-5 position-absolute"
+                  style="bottom: 0"
+                >
+                  This offer has expired!</span
+                >
+              </div>
+              
+            </div>
+          </div>
+
+
+
+<!-- 
+          <div
+            class="col-12 col-lg-6 d-flex justify-content-end align-items-md-center text-end flex-column-reverse flex-md-row  px-0 px-sm-6 py-5 py-md-0"
+            style="
+              background-image: url(./images/cg-fl_04.jpg);
+              background-size: cover;
+              min-height: 450px;
+            "
+          >
+            <div class="d-flex flex-column-reverse flex-md-row px-6 flex-shrink-1"> 
+              <div class="col-8 aliceblue px-0 px-md-4 fw-light w-100 flex-shrink-1 text-start text-md-end">
                 <h1 class="ls-2">Haku Recalibration</h1>
                 <p>
                   Mauris euismod aliquam erat, a vestibulum tortor bibendum sit
@@ -509,8 +557,9 @@
               </div>
 
               <div
-                class="col-4 p-0 position-relative aliceblue fw-bold btn-"
-                style="
+                class="col-4 p-0 my-2 my-md-0  position-relative aliceblue fw-bold w-100"
+                style="aspect-ratio: 8/11;
+                  max-width: 14rem;
                   background-image: url(./images/cg_08.jpg);
                   background-size: cover;
                 "
@@ -527,10 +576,10 @@
                 >
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div
-            class="col-6 d-flex justify-content-start align-items-center text-start"
+            class="col-12 col-lg-6 d-flex justify-content-start align-items-center text-start "
             style="
               background-image: url(./images/cg-fl_02.jpg);
               background-size: cover;
@@ -556,7 +605,6 @@
               </div>
             </div>
           </div>
-        </div>
       </section>
 
       <section
@@ -571,11 +619,11 @@
           <div class="row gap-5">
             <div class="col-12">
               <div class="row">
-                <div class="col-4">
-                  <img src="./images/img_01.jpg" alt="" />
+                <div class="col-12 col-lg-4">
+                  <img class="w-100" src="./images/img_01.jpg" alt="" />
                 </div>
-                <div class="col-8">
-                  <a class="aliceblue fs-4" href=""
+                <div class="col-12 col-lg-8 px-3 px-md-4">
+                  <a class="aliceblue fs-4 news-heading" href=""
                     >MAGNIS DEVELOPERS SPEAK OUT ON 'DEATH MARCH'</a
                   >
                   <div class="text-info py-3 fs-6 small">
@@ -606,11 +654,11 @@
 
             <div class="col-12">
               <div class="row">
-                <div class="col-4">
-                  <img src="./images/img_02.jpg" alt="" />
+                <div class="col-12 col-lg-4">
+                  <img class="w-100" src="./images/img_02.jpg" alt="" />
                 </div>
-                <div class="col-8">
-                  <a class="aliceblue fs-4" href=""
+                <div class="col-12 col-lg-8 px-3 px-md-4">
+                  <a class="aliceblue fs-4 news-heading" href=""
                     >GET CONSECTETUR IN THE NEW HUMBLE BUNDLE</a
                   >
                   <div class="text-info py-3 small">
@@ -639,11 +687,11 @@
 
             <div class="col-12">
               <div class="row">
-                <div class="col-4">
-                  <img src="./images/img_03.jpg" alt="" />
+                <div class="col-12 col-lg-4">
+                  <img class="w-100" src="./images/img_03.jpg" alt="" />
                 </div>
-                <div class="col-8">
-                  <a class="aliceblue fs-4" href=""
+                <div class="col-12 col-lg-8 px-3 px-md-4">
+                  <a class="aliceblue fs-4 news-heading" href=""
                     >PARTURIENT 2 COMES WITH DANTE'S COAT</a
                   >
                   <div class="text-info py-3 small">
@@ -675,62 +723,98 @@
 
       <section style="background-color: #0f131e; padding-bottom: 7rem">
         <div class="container">
-          <img src="./images/banner_01.jpg" alt="" />
+          <img class="w-100" src="./images/banner_01.jpg" alt="" />
         </div>
       </section>
 
-      <footer class="footer bg-dark">
+      <footer class="footer bg-dark aliceblue">
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <a class="brand" href=""><img src="./images/logo-gaming.png" alt=""></a>
-                    <p>Wicodus is a online store where you can find digital goods at the best prices.</p>
-                    <div>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-solid fa-basketball"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div>
-                        <h6>ABOUT</h6>
-                        <div>
-                            <a href="">Our team</a>
-                            <a href="">Careers</a>
-                            <a href="">Cookie Policy</a>
-                            <a href="">Primary Policy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div>
-                        <h6>COMMUNITY</h6>
-                        <div>
-                            <a href="">Forum</a>
-                            <a href="">Blog</a>
-                            <a href="">News</a>
-                            <a href="">Team</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div>
-                        <h6>HELP</h6>
-                        <div>
-                            <a href="">Contact Us</a>
-                            <a href="">Support</a>
-                            <a href="">Terms & conditions</a>
-                            <a href="">Refund policy</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div>
-                        <h6>WAYS TO PAY</h6>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col col-6 col-lg-3 d-flex flex-column gap-2 pb-4  pb-lg-0">
+              <a class="brand" href=""
+                ><img src="./images/logo-gaming.png" alt=""
+              /></a>
+              <p class="fw-light">
+                Wicodus is a online store where you can find digital goods at
+                the best prices.
+              </p>
+              <div class="d-flex gap-4 aliceblue">
+                <a href=""
+                  ><i class="fa-brands fa-twitter aliceblue social"></i
+                ></a>
+                <a href=""
+                  ><i class="fa-solid fa-basketball aliceblue social"></i
+                ></a>
+                <a href=""
+                  ><i class="fa-brands fa-instagram aliceblue social"></i
+                ></a>
+              </div>
             </div>
+            <div class="col col-6 col-lg-2 pb-4 pb-lg-0">
+              <div>
+                <h6>ABOUT</h6>
+                <div class="d-flex flex-column gap-2 fw-light">
+                  <a class="aliceblue link-light" href="">Our team</a>
+                  <a class="aliceblue link-light" href="">Careers</a>
+                  <a class="aliceblue link-light" href="">Cookie Policy</a>
+                  <a class="aliceblue link-light" href="">Primary Policy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-6 col-lg-2 pb-4  pb-lg-0">
+              <div>
+                <h6>COMMUNITY</h6>
+                <div class="d-flex flex-column gap-2 fw-light">
+                  <a class="aliceblue link-light" href="">Forum</a>
+                  <a class="aliceblue link-light" href="">Blog</a>
+                  <a class="aliceblue link-light" href="">News</a>
+                  <a class="aliceblue link-light" href="">Team</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-6 col-lg-2 pb-4 pb-lg-0">
+              <div>
+                <h6>HELP</h6>
+                <div class="d-flex flex-column gap-2 fw-light">
+                  <a class="aliceblue link-light" href="">Contact Us</a>
+                  <a class="aliceblue link-light" href="">Support</a>
+                  <a class="aliceblue link-light" href="">Terms & conditions</a>
+                  <a class="aliceblue link-light" href="">Refund policy</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-6 col-lg-2">
+              <div class="d-flex flex-column gap-2">
+                <h6>WAYS TO PAY</h6>
+                <div class="d-flex gap-3">
+                  <a href=""
+                    ><i class="fa-brands fa-cc-paypal link-light fs-3"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fa-brands fa-cc-visa link-light fs-3"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fa-brands fa-cc-amazon-pay link-light fs-3"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fa-brands fa-cc-stripe link-light fs-3"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fa-brands fa-cc-jcb link-light fs-3"></i
+                  ></a>
+                </div>
+                <span>Reviews</span>
+                <div>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </main>
