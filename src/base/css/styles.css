@@ -1,3 +1,9 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navbar start */
+
 .brand img {
   max-width: 160px;
 }
@@ -26,6 +32,8 @@
   border-bottom-left-radius: 0;
 }
 
+/* custom CSS */
+
 a {
   text-decoration: none;
 }
@@ -35,70 +43,12 @@ p,
   color: aliceblue;
 }
 
-.search {
-  max-width: 100%;
-}
-
-.border-nav {
-  border-bottom: 1px solid gray;
-}
-
-li {
-  list-style-type: none;
-}
-
-.w-max-content {
-  width: max-content;
-}
-
-.position-absolute-x-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-left: 0;
-}
-
-.owl-item {
-  width: 270px !important;
-}
-
 .px-6 {
   padding: 0 4rem;
 }
 
-.btn-round {
-  border-radius: 10rem;
-}
-
-/* .owl-carousel .card-content {
-  max-width: 290px;
-} */
-
-.products {
-  background-image: url(assets/img/bg/bg_shape.png);
-  background-color: blueviolet;
-  padding: 6rem 0;
-}
-
-.card {
-  position: relative;
-}
-
-.card .card-details {
-  position: absolute;
-  bottom: 0;
-  z-index: 9998;
-  padding: 1rem;
-  background-color: #eeb509;
-  width: 100%;
-  opacity: 0;
-  font-size: 12px;
-  font-weight: bold;
-  color: aliceblue;
-}
-
-.card-content:hover .card-details {
-  opacity: 1;
+.search {
+  max-width: 100%;
 }
 
 .py-8 {
@@ -145,6 +95,64 @@ li {
 
 .small {
   font-size: 12px !important;
+}
+
+.border-nav {
+  border-bottom: 1px solid gray;
+}
+
+li {
+  list-style-type: none;
+}
+
+.w-max-content {
+  width: max-content;
+}
+
+.position-absolute-x-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0;
+}
+
+.owl-item {
+  width: 270px !important;
+}
+
+.btn-round {
+  border-radius: 10rem;
+}
+
+/* .owl-carousel .card-content {
+  max-width: 290px;
+} */
+
+.products {
+  background-image: url(assets/img/bg/bg_shape.png);
+  background-color: blueviolet;
+  padding: 6rem 0;
+}
+
+.card {
+  position: relative;
+}
+
+.card .card-details {
+  position: absolute;
+  bottom: 0;
+  z-index: 9998;
+  padding: 1rem;
+  background-color: #eeb509;
+  width: 100%;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.card-content:hover .card-details {
+  opacity: 1;
 }
 
 .more-btn {
