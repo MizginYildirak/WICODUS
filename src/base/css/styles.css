@@ -15,7 +15,7 @@
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1140px;
 }
 
 .btn-sm {
@@ -149,8 +149,8 @@ li {
 
 .more-btn {
   font-size: 11px;
-padding: 10px 25px;
-font-weight: 500;
+  padding: 10px 25px;
+  font-weight: 500;
 }
 
 .footer {
@@ -162,21 +162,83 @@ font-weight: 500;
 }
 
 .social:hover {
-  color: #F71D5A !important;
+  color: #f71d5a !important;
 }
 
 .news-heading:hover {
   color: #58bdf7 !important;
 }
 
-.input-group, .input-group btn {
+.input-group,
+.input-group btn {
   max-width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media only screen and (max-width: 1220px){
+.carouse-item {
+  position: relative;
+  overflow: hidden;
+  width: 100vh;
+}
+.carouse-item .item-start {
+  z-index: 1 !important;
+}
+
+.triangle {
+  width: 115%;
+  height: 100%;
+  position: absolute !important;
+  transform-origin: left;
+  background-color: #151515b7;
+  left: 0;
+  transform: skew(45deg) translateX(-50%);
+}
+
+.carousel-content {
+  position: absolute;
+  overflow: hidden !important;
+  flex: 0;
+  inset: 0;
+  color: white;
+  z-index: 5;
+  line-height: 30px;
+  font-size: larger;
+  font-weight: lighter;
+  z-index: 1;
+}
+
+.carousel-content .content {
+  z-index: 10;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  justify-content: center;
+  position: absolute;
+  margin: 0 12em;
+}
+
+.purchase {
+  transform: skew(10deg);
+  padding-top: 1rem;
+  overflow: hidden;
+}
+
+.purchase a {
+  transition: all 1s linear;
+}
+
+.purchase a:nth-child(2):hover {
+  opacity: 0.8 !important;
+}
+
+.purchase span {
+  transform: skew(-10deg);
+}
+
+@media only screen and (max-width: 1220px) {
   .container {
     max-width: 800px;
   }
@@ -187,13 +249,61 @@ font-weight: 500;
     max-width: 100px;
   }
 
+  .triangle {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    background-color: #151515b7;
+    transform: skew(0deg) translateX(0);
+  }
+  .carousel-item {
+    height: 450px;
+  }
+
+  .carousel-content .content {
+    margin: 0 4em;
+    max-width: 100%;
+  }
+
   /* .container {
     max-width: 600px;
   } */
+}
+
+a[notification] {
+  position: relative;
+}
+
+a[notification]:after {
+  content: attr(notification);
+  background: rgba(252, 143, 23);
+  color: white;
+  border-radius: 100%;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -0.5rem;
+  right: -0.5rem;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 576px) {
   /* .container {
     max-width: 400px;
   } */
+
+  .carousel-content .content {
+    margin: 0 2em;
+    max-width: 100%;
+  }
+
+  .products .container .text-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
 }
