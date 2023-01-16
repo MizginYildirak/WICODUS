@@ -1,0 +1,322 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navbar start */
+
+.brand img {
+  max-width: 160px;
+}
+
+.main-nav {
+  height: 90px;
+}
+
+.navbar .navbar-nav .nav-item {
+  font-size: 0.8rem;
+}
+
+.dark {
+  background-color: #151515;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.btn-sm {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  padding: 0.3rem 1rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* custom CSS */
+
+a {
+  text-decoration: none;
+}
+
+p,
+.aliceblue {
+  color: aliceblue;
+}
+
+.px-6 {
+  padding: 0 4rem;
+}
+
+.search {
+  max-width: 100%;
+}
+
+.py-8 {
+  padding: 3rem 0;
+}
+
+.lh-p {
+  line-height: 32px;
+}
+
+.ls-4 {
+  letter-spacing: 4px;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+.bg-danger {
+  background-color: #da2f69 !important;
+  border-color: #da2f69 !important;
+  font-size: 12px;
+}
+
+.bg-dark-o {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.w-40 {
+  max-width: 200px;
+}
+
+.pb-6 {
+  padding-bottom: 4rem !important;
+}
+
+.py-7 {
+  padding: 7rem 0;
+}
+
+.text-info {
+  color: #17a2b8 !important;
+}
+
+.small {
+  font-size: 12px !important;
+}
+
+.border-nav {
+  border-bottom: 1px solid gray;
+}
+
+li {
+  list-style-type: none;
+}
+
+.w-max-content {
+  width: max-content;
+}
+
+.position-absolute-x-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0;
+}
+
+.owl-item {
+  width: 270px !important;
+}
+
+.btn-round {
+  border-radius: 10rem;
+}
+
+/* .owl-carousel .card-content {
+  max-width: 290px;
+} */
+
+.products {
+  background-image: url(assets/img/bg/bg_shape.png);
+  background-color: blueviolet;
+  padding: 6rem 0;
+}
+
+.card {
+  position: relative;
+}
+
+.card .card-details {
+  position: absolute;
+  bottom: -100px;
+  z-index: 5;
+  padding: 1rem;
+  background-color: #eeb509;
+  width: 100%;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: all 0.5s ease-in;
+
+}
+
+.card-content:hover .card-details {
+  opacity: 1;
+  bottom: 0;
+    transition: all 0.5s ease-in;
+    
+}
+
+.more-btn {
+  font-size: 11px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+
+.footer {
+  padding: 5rem 0;
+}
+
+.bg-dark {
+  background-color: #151515 !important;
+}
+
+.social:hover {
+  color: #f71d5a !important;
+}
+
+.news-heading:hover {
+  color: #58bdf7 !important;
+}
+
+.input-group,
+.input-group btn {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouse-item {
+  position: relative;
+  overflow: hidden;
+  width: 100vh;
+}
+.carouse-item .item-start {
+  z-index: 1 !important;
+}
+
+.triangle {
+  width: 115%;
+  height: 100%;
+  position: absolute !important;
+  transform-origin: left;
+  background-color: #151515b7;
+  left: 0;
+  transform: skew(45deg) translateX(-50%);
+}
+
+.carousel-content {
+  position: absolute;
+  overflow: hidden !important;
+  flex: 0;
+  inset: 0;
+  color: white;
+  z-index: 5;
+  line-height: 30px;
+  font-size: larger;
+  font-weight: lighter;
+  z-index: 1;
+}
+
+.carousel-content .content {
+  z-index: 10;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  justify-content: center;
+  position: absolute;
+  margin: 0 12em;
+}
+
+.purchase {
+  transform: skew(10deg);
+  padding-top: 1rem;
+  overflow: hidden;
+}
+
+.purchase a {
+  transition: all 1s linear;
+}
+
+.purchase a:nth-child(2):hover {
+  opacity: 0.8 !important;
+}
+
+.purchase span {
+  transform: skew(-10deg);
+}
+
+@media only screen and (max-width: 1220px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .brand img {
+    max-width: 100px;
+  }
+
+  .triangle {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    background-color: #151515b7;
+    transform: skew(0deg) translateX(0);
+  }
+  .carousel-item {
+    height: 450px;
+  }
+
+  .carousel-content .content {
+    margin: 0 4em;
+    max-width: 100%;
+  }
+
+  /* .container {
+    max-width: 600px;
+  } */
+}
+
+a[notification] {
+  position: relative;
+}
+
+a[notification]:after {
+  content: attr(notification);
+  background: rgba(252, 143, 23);
+  color: white;
+  border-radius: 100%;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -0.5rem;
+  right: -0.5rem;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 576px) {
+  /* .container {
+    max-width: 400px;
+  } */
+
+  .carousel-content .content {
+    margin: 0 2em;
+    max-width: 100%;
+  }
+
+  .products .container .text-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+}

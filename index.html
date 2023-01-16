@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- font-awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- owl carousel start -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <title>WICODUS</title>
+</head>
+
+<body>
+
+  <!-- navbar start -->
+
+  <nav class="dark border-nav d-flex align-items-center main-nav">
+    <div class="container d-flex w-100 justify-content-between">
+      <div>
+        <div class="navbar-brand brand">
+          <img class="" src="./assets/images/logo-gaming.png" alt="" />
+        </div>
+      </div>
+      <div class="d-flex d-none d-lg-block m-auto">
+        <form class="d-flex border-0 bg-transparent w-100">
+          <input class="form-control" style="border-radius: 5px 0 0 5px !important;" type="search" placeholder="Search"
+            aria-label="Search" />
+          <button class="btn btn-sm btn-warning text-secondary my-0 mx-0 d-none d-lg-block px-2" type="submit">
+            <i class="fas fa-search my-2 mx-2"></i>
+          </button>
+        </form>
+      </div>
+      <div class="d-flex align-content-center gap-2 justify-content-end p-0">
+        <div class="d-flex m-auto justify-content-center">
+          <a href=""><button class="text-dark btn-sm bg-warning text-nowrap">
+              SIGN IN
+            </button></a>
+          <a class="d-none d-sm-block" href=""><button class="text-light btn-sm dark border-0 text-nowrap">
+              SIGN UP
+            </button></a>
+        </div>
+        <div class="ml-2 d-flex m-auto gap-2 justify-content-center">
+          <a class="d-sm-block" href=""><i class="fa-solid fa-globe text-muted"></i></a>
+          <a class="d-sm-block" href=""><span class="text-muted text-decoration-none">EN</span>
+          </a>
+          <a class="d-sm-block" href=""><i class="fa-solid fa-caret-down text-muted"></i></a>
+
+          <a href="d-sm-block position-relative" notification="2"><i
+              class="fa-solid fa-cart-shopping text-muted"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="dark navbar-expand-lg navbar">
+    <div class="container">
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false"
+        aria-label="Toggle navigation">
+        ☰
+      </button>
+      <div class="collapse navbar-collapse" id="collapsingNavbar">
+        <ul class="navbar-nav d-flex gap-1 mt-2 text-muted align-content-center aliceblue">
+          <li class="d-flex align-items-center nav-item">
+            <a class="nav-link text-muted fw-bold" href="">GAMES</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li class="d-flex align-items-center nav-item">
+            <a class="nav-link text-muted fw-bold" href="">SOFTWARE</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li class="d-flex align-items-center nav-item">
+            <a class="nav-link text-muted fw-bold" href="">COMMUNITY</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li class="d-flex align-items-center nav-item">
+            <a class="nav-link text-muted fw-bold nav-item" href="">ABOUT</a>
+          </li>
+          <li class="d-flex align-items-center nav-item">
+            <a class="nav-link text-muted fw-bold nav-item" href="">SUPPORT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel start -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+    <ol class="carousel-indicators bg-dark p-1 w-max-content position-absolute-x-center">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="w-100 h-100 bg-warning overflow-hidden">
+          <div class="carousel-content d-flex flex-column">
+            <div class="triangle">
+            </div>
+            <div class="content">
+              <h2>God's eye</h2>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia, per inceptos himenaeos. Quisque gravida eu
+                lacus et consequat. Interdum et malesuada fames ac ante, ipsum primis in faucibus mollis.</p>
+              <div class="purchase d-flex gap-0 fs-6 fw-normal">
+                <a class=" bg-dark px-4 py-2 d-inline-flex m-0 d-flex gap-2 ls-2" href=""><span
+                    class="purchase-right text-light text-decoration-line-through">349$</span><span
+                    class="text-warning">299$</span></a>
+                <a class="px-4 py-2 d-inline-flex m-0 text-dark ls-2" style="background-color: rgb(233, 239, 245);"
+                  href=""><span class="purchase-right">BUY</span></a>
+              </div>
+            </div>
+          </div>
+
+          <img class="d-block w-100 h-100 object-fit-cover" src="./assets/images/slide_01.jpg" alt="First slide" />
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="w-100 h-100 bg-warning overflow-hidden">
+          <div class="carousel-content d-flex flex-column">
+            <div class="triangle">
+            </div>
+            <div class="content">
+              <h2>God's eye</h2>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia, per inceptos himenaeos. Quisque gravida eu
+                lacus et consequat. Interdum et malesuada fames ac ante, ipsum primis in faucibus mollis.</p>
+              <div class="purchase d-flex gap-0 fs-6 fw-normal">
+                <a class=" bg-dark px-4 py-2 d-inline-flex m-0 d-flex gap-2 ls-2" href=""><span
+                    class="purchase-right text-light text-decoration-line-through">349$</span><span
+                    class="text-warning">299$</span></a>
+                <a class="px-4 py-2 d-inline-flex m-0 text-dark ls-2" style="background-color: rgb(233, 239, 245);"
+                  href=""><span class="purchase-right">BUY</span></a>
+              </div>
+            </div>
+          </div>
+          <img class="d-block w-100 h-100 object-fit-cover" src="./assets/images/slide_02.jpg" alt="Second slide" />
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <main>
+
+    <!-- products start -->
+
+    <section class="products" style="
+          background-image: url(./assets/images/bg_shape.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-color: #0f131e; ;
+        ">
+      <div class="container">
+        <h2 class="text-light">Most Popular Products</h2>
+        <ul class="d-flex align-items-center text-light gap-2 fw-bold border-bottom px-0">
+          <li class="p-2"><a href=""></a>NEW</li>
+          <li class="p-2 text-muted">|</li>
+          <li class="p-2 text-ellipsis"><a href=""></a>HIGHLIGHTS</li>
+          <li class="p-2 text-muted">|</li>
+          <li class="p-2 text-ellipsis"><a href=""></a>COMING SOON</li>
+        </ul>
+
+        <div class="owl-carousel d-flex gap-2">
+          <div class="card-content">
+            <div class="card overflow-hidden">
+              <img src="./assets/images/cg_01.jpg" alt="" />
+              <div class="card-details d-flex justify-content-center align-items-center gap-1">
+                <a href=""><i class="fa-solid fa-cart-shopping text-light"></i></a>
+                <span>|</span>
+                <p class="m-0">ADD TO CART</p>
+              </div>
+            </div>
+
+            <div class="pt-3 fw-bold">
+              <p class="fs-5">CREATURE 2020</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-warning">€24.99</span>
+                <div class="d-flex text aliceblue">
+                  <span>ACTION, ADVENTURE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <div class="card overflow-hidden">
+              <img src="./assets/images/cg_02.jpg" alt="" />
+              <div class="card-details d-flex justify-content-center align-items-center gap-1">
+                <a href=""><i class="fa-solid fa-cart-shopping text-light"></i></a>
+                <span>|</span>
+                <p class="m-0">ADD TO CART</p>
+              </div>
+            </div>
+
+            <div class="pt-3 fw-bold">
+              <p class="fs-5">SHADOW LEAP</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-warning">€22.99</span>
+                <div class="d-flex text aliceblue">
+                  <span>ACTION, ADVENTURE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <div class="card overflow-hidden">
+              <img src="./assets/images/cg_03.jpg" alt="" />
+              <div class="card-details d-flex justify-content-center align-items-center gap-1">
+                <a href=""><i class="fa-solid fa-cart-shopping text-light"></i></a>
+                <span>|</span>
+                <p class="m-0">ADD TO CART</p>
+              </div>
+            </div>
+
+            <div class="pt-3 fw-bold">
+              <p class="fs-5">MECHAONE: NEW GEN.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-warning">€44.99</span>
+                <div class="d-flex text aliceblue">
+                  <span>ACTION, ADVENTURE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <div class="card overflow-hidden">
+              <img src="./assets/images/cg_04.jpg" alt="" />
+              <div class="card-details d-flex justify-content-center align-items-center gap-1">
+                <a href=""><i class="fa-solid fa-cart-shopping text-light"></i></a>
+                <span>|</span>
+                <p class="m-0">ADD TO CART</p>
+              </div>
+            </div>
+
+            <div class="pt-3 fw-bold">
+              <p class="fs-5">DEATH STRANDING: GOL...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-warning">€44.99</span>
+                <div class="d-flex text aliceblue">
+                  <span>ACTION, ADVENTURE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <div class="card overflow-hidden">
+              <img src="./assets/images/cg_05.jpg" alt="" />
+              <div class="card-details d-flex justify-content-center align-items-center gap-1">
+                <a href=""><i class="fa-solid fa-cart-shopping text-light"></i></a>
+                <span>|</span>
+                <p class="m-0">ADD TO CART</p>
+              </div>
+            </div>
+
+            <div class="pt-3 fw-bold">
+              <p class="fs-5">ONI DELUXE EDITION</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-warning">€41.99</span>
+                <div class="d-flex text aliceblue">
+                  <span>ACTION, ADVENTURE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content">
+            <div class="card overflow-hidden">
+              <img src="./assets/images/cg_06.jpg" alt="" />
+              <div class="card-details d-flex justify-content-center align-items-center gap-1">
+                <a href=""><i class="fa-solid fa-cart-shopping text-light"></i></a>
+                <span>|</span>
+                <p class="m-0">ADD TO CART</p>
+              </div>
+            </div>
+
+            <div class="pt-3 fw-bold">
+              <p class="fs-5">ENGINEER</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-warning">€41.99</span>
+                <div class="d-flex text aliceblue">
+                  <span>ACTION, ADVENTURE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- themes start -->
+
+    <section class="row w-100 m-0">
+      <div class="col-12 col-xl-6 d-flex justify-content-end align-items-center text-end" style="
+              background-image: url(./assets/images/cg-fl_01.jpg);
+              background-size: cover;
+              height: 450px;
+              padding: 0;
+            ">
+        <div class="d-flex flex-column h-100 px-3 px-md-5 w-100 text-white" style="background:rgba(0,0,0,0.5)">
+          <div class="col d-flex flex-column justify-content-center">
+            <small class="ls-2">NEW</small>
+            <h2 class="m-0 ls-2">An Incredible Journey</h2>
+            <span class="d-block text-white py-3 fw-lighter ls-2">ONLY ON WICODUS</span>
+            <div>
+              <a class="btn btn-round btn-outline-light py-2 px-4 ls-2" href="">EXPLORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-6 d-flex align-items-center py-5 py-md-0" style="
+              background-image: url(./assets/images/cg-fl_03.jpg);
+              background-size: cover;
+              min-height: 450px;
+            ">
+        <div class="d-flex flex-column flex-md-row px-0 px-sm-5 gap-3 align-items-center">
+          <div class="d-flex flex-shrink-0 position-relative aliceblue fw-bold w-100" style="  aspect-ratio: 8/11;
+                 max-width: 14rem;
+                  background-image: url(http://scanthemes.com/demo/HTML/wicodus/assets/img/content/cont/cg_07.jpg);
+                  background-size: cover;
+                ">
+            <span class="bg-danger position-absolute py-2 px-3 fs-6" style="right: 0">-50%</span><span
+              class="d-flex justify-content-center bg-dark-o py-3 px-3 text-center text-light fw-bold fs-6 position-absolute w-100"
+              style="bottom: 0">
+              This offer has expired!</span>
+          </div>
+          <div class="col-8 aliceblue fw-light w-100 flex-shrink-1 px-0 px-md-4" style="max-height: 300px;">
+            <h1 class="ls-2">Informant</h1>
+            <p class="w-100">
+              Mauris euismod aliquam erat, a vestibulum tortor bibendum sit
+              amet. Duis vitae augue non dolor fermentum faucibus non quis
+              justo. Sed consequat accumsan turpis et semper. Nulla blandit
+              blandit est, nec tincidunt neque sollicitudin vitae.
+            </p>
+            <a class="btn aliceblue bg-danger py-3 px-4 ls-4 btn-round" href=""><i
+                class="fa-solid fa-cart-shopping d-flex gap-3 aliceblue">BUY</i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-6 d-flex align-items-center py-5 py-md-0" style="
+              background-image: url(./assets/images/cg-fl_03.jpg);
+              background-size: cover;
+              min-height: 450px;
+            ">
+        <div class="d-flex flex-column flex-md-row-reverse px-0 gap-3 px-sm-5 align-items-center">
+          <div class="d-flex flex-shrink-0 position-relative aliceblue fw-bold w-100" style="  aspect-ratio: 8/11;
+                 max-width: 14rem;
+                  background-image: url(http://scanthemes.com/demo/HTML/wicodus/assets/img/content/cont/cg_08.jpg);
+                  background-size: cover;
+                ">
+            <span class="bg-danger position-absolute py-2 px-3 fs-6" style="right: 0">-50%</span><span
+              class="d-flex justify-content-center bg-dark-o py-3 px-3 text-center text-light fw-bold fs-6 position-absolute w-100"
+              style="bottom: 0">
+              This offer has expired!</span>
+          </div>
+          <div class="flex-shrink-1 
+          col-8 aliceblue fw-light w-100 flex-shrink-1 px-0 px-md-4 text-start text-md-end" style="max-height: 300px;">
+            <h1 class="ls-2">Haku Recalibration</h1>
+            <p class="w-100">
+              Mauris euismod aliquam erat, a vestibulum tortor bibendum sit
+              amet. Duis vitae augue non dolor fermentum faucibus non quis
+              justo. Sed consequat accumsan turpis et semper. Nulla blandit
+              blandit est, nec tincidunt neque sollicitudin vitae.
+            </p>
+            <a class="btn aliceblue bg-danger py-3 px-4 ls-4 btn-round" href=""><i
+                class="fa-solid fa-cart-shopping d-flex gap-3 aliceblue">BUY</i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xl-6 d-flex justify-content-start align-items-center text-start " style="
+              background-image: url(./assets/images/cg-fl_02.jpg);
+              background-size: cover;
+              min-height: 450px;
+              padding: 0;
+            ">
+        <div class="d-flex flex-column h-100 px-3 px-md-5 w-100 text-white" style="background:rgba(0,0,0,0.5)">
+          <div class="col d-flex flex-column justify-content-center">
+            <small class="ls-2">ACTION</small>
+            <h2 class="m-0 ls-2">Shark Project</h2>
+            <span class="w-40 d-block text-light py-3 fw-lighter ls-2 pb-3" style="line-height: 2em">AN AMAZING
+              EXPERIENCE FROM BEGINNING TO END</span>
+            <div>
+              <a class="btn btn-round btn-outline-light py-2 px-4 ls-2" href="">EXPLORE THE SKY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reading start -->
+
+    <section class="py-7 aliceblue" style="background: linear-gradient(to bottom, #111931 0%, #0f131e 100%)">
+      <div class="container">
+        <header>
+          <h2 class="pb-5">Latest News</h2>
+        </header>
+
+        <div class="row gap-5">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-4 px-3 px-lg-0">
+                <img class="w-100" src="http://scanthemes.com/demo/HTML/wicodus/assets/img/content/img_01.jpg" alt="" />
+              </div>
+              <div class="col-12 col-lg-8 px-3 px-md-4">
+                <a class="aliceblue fs-4 news-heading" href="">MAGNIS DEVELOPERS SPEAK OUT ON 'DEATH MARCH'</a>
+                <div class="text-info py-3 fs-6 small">
+                  <span class="d-inline-flex gap-1 align-items-center"><i class="fa-solid fa-tags"></i>Cras quis lacus
+                    dolor,
+                    Quisque dictum sollicitudin</span>
+                  <span>-</span>
+                  <span>4th October 2021</span>
+                </div>
+                <p class="lh-p fw-light">
+                  Donec vestibulum, odio a sagittis vestibulum, eros nunc
+                  consectetur ex, eu tincidunt neque lacus ac lorem. Mauris
+                  interdum urna id eros dignissim convallis. Aliquam
+                  convallis, nisi in facilisis tincidunt, augue nunc efficitur
+                  lectus, ut auctor orci purus sed neque. Orci varius natoque
+                  penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus.
+                </p>
+                <a class="btn aliceblue btn-outline-light more-btn ls-2" href="">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-4 px-3 px-lg-0">
+                <img class="w-100" src="http://scanthemes.com/demo/HTML/wicodus/assets/img/content/img_02.jpg" alt="" />
+              </div>
+              <div class="col-12 col-lg-8 px-3 px-md-4">
+                <a class="aliceblue fs-4 news-heading" href="">GET CONSECTETUR IN THE NEW HUMBLE BUNDLE</a>
+                <div class="text-info py-3 small">
+                  <span class="d-inline-flex gap-1 align-items-center"><i class="fa-solid fa-tags"></i>Cras quis lacus
+                    dolor,
+                    Quisque dictum sollicitudin</span>
+                  <span>-</span>
+                  <span>4th October 2021</span>
+                </div>
+                <p class="lh-p fw-light">
+                  Donec vestibulum, odio a sagittis vestibulum, eros nunc
+                  consectetur ex, eu tincidunt neque lacus ac lorem. Mauris
+                  interdum urna id eros dignissim convallis. Aliquam
+                  convallis, nisi in facilisis tincidunt, augue nunc efficitur
+                  lectus, ut auctor orci purus sed neque. Orci varius natoque
+                  penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus.
+                </p>
+                <a class="btn btn-outline-light more-btn ls-2" href="">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-4 px-3 px-lg-0">
+                <img class="w-100" src="http://scanthemes.com/demo/HTML/wicodus/assets/img/content/img_03.jpg" alt="" />
+              </div>
+              <div class="col-12 col-lg-8 px-3 px-md-4">
+                <a class="aliceblue fs-4 news-heading" href="">PARTURIENT 2 COMES WITH DANTE'S COAT</a>
+                <div class="text-info py-3 small">
+                  <span class="d-inline-flex gap-1 align-items-center"><i class="fa-solid fa-tags"></i>Cras quis lacus
+                    dolor,
+                    Quisque dictum sollicitudin</span>
+                  <span>-</span>
+                  <span>4th October 2021</span>
+                </div>
+                <p class="lh-p fw-light">
+                  Donec vestibulum, odio a sagittis vestibulum, eros nunc
+                  consectetur ex, eu tincidunt neque lacus ac lorem. Mauris
+                  interdum urna id eros dignissim convallis. Aliquam
+                  convallis, nisi in facilisis tincidunt, augue nunc efficitur
+                  lectus, ut auctor orci purus sed neque. Orci varius natoque
+                  penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus.
+                </p>
+                <a class="btn btn-outline-light more-btn ls-2" href="">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner start -->
+
+    <section style="background-color: #0f131e; padding-bottom: 7rem">
+      <div class="container">
+        <img class="w-100" src="http://scanthemes.com/demo/HTML/wicodus/assets/img/content/banner_01.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- footer start -->
+
+    <footer class="footer bg-dark aliceblue">
+      <div class="container">
+        <div class="row">
+          <div class="col col-6 col-lg-3 d-flex flex-column gap-2 pb-4  pb-lg-0">
+            <a class="brand" href=""><img src="./assets/images/logo-gaming.png" alt="" /></a>
+            <p class="fw-light">
+              Wicodus is a online store where you can find digital goods at
+              the best prices.
+            </p>
+            <div class="d-flex gap-4 aliceblue">
+              <a href=""><i class="fa-brands fa-twitter aliceblue social"></i></a>
+              <a href=""><i class="fa-solid fa-basketball aliceblue social"></i></a>
+              <a href=""><i class="fa-brands fa-instagram aliceblue social"></i></a>
+            </div>
+          </div>
+          <div class="col col-6 col-lg-2 pb-4 pb-lg-0">
+            <div>
+              <h6>ABOUT</h6>
+              <div class="d-flex flex-column gap-2 fw-light">
+                <a class="aliceblue link-light" href="">Our team</a>
+                <a class="aliceblue link-light" href="">Careers</a>
+                <a class="aliceblue link-light" href="">Cookie Policy</a>
+                <a class="aliceblue link-light" href="">Primary Policy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-6 col-lg-2 pb-4  pb-lg-0">
+            <div>
+              <h6>COMMUNITY</h6>
+              <div class="d-flex flex-column gap-2 fw-light">
+                <a class="aliceblue link-light" href="">Forum</a>
+                <a class="aliceblue link-light" href="">Blog</a>
+                <a class="aliceblue link-light" href="">News</a>
+                <a class="aliceblue link-light" href="">Team</a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-6 col-lg-2 pb-4 pb-lg-0">
+            <div>
+              <h6>HELP</h6>
+              <div class="d-flex flex-column gap-2 fw-light">
+                <a class="aliceblue link-light" href="">Contact Us</a>
+                <a class="aliceblue link-light" href="">Support</a>
+                <a class="aliceblue link-light" href="">Terms & conditions</a>
+                <a class="aliceblue link-light" href="">Refund policy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-6 col-lg-2">
+            <div class="d-flex flex-column gap-2">
+              <h6>WAYS TO PAY</h6>
+              <div class="d-flex gap-3">
+                <a href=""><i class="fa-brands fa-cc-paypal link-light fs-3"></i></a>
+                <a href=""><i class="fa-brands fa-cc-visa link-light fs-3"></i></a>
+                <a href=""><i class="fa-brands fa-cc-amazon-pay link-light fs-3"></i></a>
+                <a href=""><i class="fa-brands fa-cc-stripe link-light fs-3"></i></a>
+                <a href=""><i class="fa-brands fa-cc-jcb link-light fs-3"></i></a>
+              </div>
+              <span>Reviews</span>
+              <div>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="assets/plugins/owl.carousel/owl.carousel.min.js"></script>
+</body>
+
+</html>
